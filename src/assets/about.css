@@ -131,6 +131,23 @@ figure{
   }
   .hiremebtn.left-slide-in{
     transform: translateX(0);
-    opacity: 1;
-    
+    opacity: 1; 
+  }
+  @media screen and (max-width: 768px) {
+    .flexcontainer {
+      flex-direction: column-reverse; /* Change back to column for tablets */
+    }
+    .abtcontainer{
+      margin-top: 0;
+    }
+    .hiremebtn,
+    .resumelink {
+      margin: 10px 10px; /* Add some space around buttons */
+    }
+    .socialmedia{
+      display: none;
+    }
+    .photo{
+      width: 80%;
+    }
   }

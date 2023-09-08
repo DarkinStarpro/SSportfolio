@@ -26,6 +26,10 @@ input, textarea{
     border: none;
     font-size: 16px;
 }
+iframe{
+    width: 600px;
+    height: 450px; 
+}
 textarea{
     height: 100px;
     resize: none;
@@ -47,4 +51,17 @@ textarea{
 ::placeholder {
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media screen and (max-width: 768px) {
+    .contactcontainer{
+        margin: 10px 20px;
+    }
+    .contactinfo{
+        flex-direction: column;
+        gap:20px;
+    }
+    iframe{
+        width: 90vw;
+        height: 250px;
+    }
 }

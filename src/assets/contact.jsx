@@ -7,8 +7,6 @@ function Contact(){
         <div className="contactinfo">
             <div className="map">
                 <iframe src={deatils.maploactionURL} 
-                width="600" 
-                height="450" 
                 style={{border:"0"}}
                 allowFullScreen="" 
                 loading="lazy" 

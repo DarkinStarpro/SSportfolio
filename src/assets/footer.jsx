@@ -7,10 +7,10 @@ function Footer(){
             <div className="mainfooter u-s-n">
                 <div>
                     <h1>{details.footerslogan}</h1>
-                    <button className='hiremebtn'>Hire me</button>
+                    <button className='hiremebtnft'>Hire me</button>
                 </div>
                 <div>
-                    <p style={{width: "500px", fontSize:"20px",fontWeight:"500"}}>{details.footerdesc}</p>
+                    <p className="footerdesc">{details.footerdesc}</p>
                     <span style={{width: "500px", fontSize:"20px",fontWeight:"700"}}>Connect
                         {socials.map((item, index) => (
                            <i key={index} title={item.name}><a href={item.link} target="_blank"><img src={item.logo} alt={item.name}/></a></i>

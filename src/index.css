@@ -12,3 +12,8 @@ body{
 .u-s-n{
   user-select: none;
 }
+@media screen and (max-width: 768px) {
+body,html{
+  overflow-x: hidden;
+}
+}

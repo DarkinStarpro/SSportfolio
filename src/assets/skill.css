@@ -83,5 +83,16 @@
     position: relative;
     right:130px;
     display: flex;
+}
+@media screen and (max-width: 768px) {
+  .label-box{
+    width: 150px;
+  }
+  .skillright{
+    left:105px;
+}
+.skillleft{
+    right:105px;
+}
 
 }
