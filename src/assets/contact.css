@@ -1,0 +1,50 @@
+.contactcontainer{
+    margin: 100px 175px 100px;
+}
+.contactinfo{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(224 231 255);
+}
+.messagebox{
+    
+    height: 450px;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input, textarea{
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+}
+textarea{
+    height: 100px;
+    resize: none;
+}
+.send-btn{
+    margin-top:10px;
+    width: 85%;
+    padding:10px;
+    color:white;
+    background-color: rgb(1,1,88);
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.5s;
+}
+.send-btn:hover{
+    background-color: blue;
+}
+::placeholder {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

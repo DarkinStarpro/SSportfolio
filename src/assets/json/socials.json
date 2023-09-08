@@ -1,0 +1,28 @@
+[
+    {
+        "name":"Facebook",
+        "logo": "./static/logo/facebook.svg",
+        "link":"https://www.facebook.com/people/Sudipta-Saha/pfbid0B9y8R6KTsPojHARsjYcBMHU25NBAViNCvh36wpuiewYJ2waMMRX4bzjsWjnrT4U6l/"
+    },
+    {
+        "name":"Instagram",
+        "logo": "./static/logo/instagram.svg",
+        "link":"https://www.instagram.com/sudipta_rccns/"
+    },{
+        "name":"Linkedin",
+        "logo": "./static/logo/linkedin.svg",
+        "link":"https://www.linkedin.com/in/sudipta-saha-b17948202"
+    },{
+        "name":"WhatsApp",
+        "logo": "./static/logo/whatsapp.svg",
+        "link":"https://wa.me/91978591532"
+    },{
+        "name":"Telegram",
+        "logo": "./static/logo/telegram.svg",
+        "link":"https://t.me/S_Sudipta"
+    },{
+        "name":"Github",
+        "logo": "./static/logo/github.svg",
+        "link":"https://github.com/s-sudipta"
+    }
+  ]
