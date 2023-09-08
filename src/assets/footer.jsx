@@ -12,6 +12,7 @@ function Footer(){
                 <div>
                     <p className="footerdesc">{details.footerdesc}</p>
                     <span style={{width: "500px", fontSize:"20px",fontWeight:"700"}}>Connect
+                        <br/>
                         {socials.map((item, index) => (
                            <i key={index} title={item.name}><a href={item.link} target="_blank"><img src={item.logo} alt={item.name}/></a></i>
                         ))}
