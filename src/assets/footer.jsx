@@ -7,7 +7,7 @@ function Footer(){
             <div className="mainfooter u-s-n">
                 <div>
                     <h1>{details.footerslogan}</h1>
-                    <button className='hiremebtnft'>Hire me</button>
+                    <button className='hiremebtnft'><a href='#contact'>Hire me</a></button>
                 </div>
                 <div>
                     <p className="footerdesc">{details.footerdesc}</p>

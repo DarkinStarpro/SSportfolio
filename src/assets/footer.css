@@ -46,6 +46,24 @@ span i img{
     margin: 0px 20px;
     cursor: pointer;
 }
+.hiremebtnft{
+    background-color: black;
+    color:white;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    margin-right: 30px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.hiremebtnft a{
+    text-decoration: none;
+    color:white;
+  }
+.hiremebtnft:hover{
+      background-color: rgb(1, 1, 88);
+}
 @media screen and (max-width: 768px) {
     .mainfooter{
         margin: 0px 30px;
@@ -66,5 +84,8 @@ span i img{
     }
     .endfooter div h2{
         display: none;
+    }
+    span i img{
+        margin: 0px 10px;
     }
 }
